@@ -1,4 +1,6 @@
 package com.giraldes.curso.devsuperior.serviceRest.DTO;
+
+import com.giraldes.curso.devsuperior.serviceRest.entities.Client;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.PastOrPresent;
 import jakarta.validation.constraints.Size;
@@ -70,6 +72,16 @@ public class ClientDTO {
         this.birthDate = birthDate;
         this.children = chindren;
     }
+    public ClientDTO(Client client) {
+        this.id = client.getId();
+        this.name = client.getName();
+        this.cpf = client.getCpf();
+        this.income = client.getIncome();
+        this.birthDate = client.getBirthDate();
+        this.children = client.getChildren();
+    }
+
+
 
     @Override
     public String toString() {

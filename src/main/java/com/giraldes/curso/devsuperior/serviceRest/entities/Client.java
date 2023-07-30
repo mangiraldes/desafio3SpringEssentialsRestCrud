@@ -1,5 +1,6 @@
 package com.giraldes.curso.devsuperior.serviceRest.entities;
 
+import com.giraldes.curso.devsuperior.serviceRest.DTO.ClientDTO;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 @Entity
@@ -73,6 +74,16 @@ public class Client {
         this.income = income;
         this.birthDate = birthDate;
         this.children = children;
+    }
+    public Client(ClientDTO client) {
+        this.name = client.getName();
+        this.cpf = client.getCpf();
+        this.income = client.getIncome();
+        this.birthDate = client.getBirthDate();
+        this.children = client.getChildren();
+    }
+
+    public Client() {
     }
 
     @Override

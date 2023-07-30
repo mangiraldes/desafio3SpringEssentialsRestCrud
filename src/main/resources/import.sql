@@ -7,7 +7,7 @@ INSERT INTO tbl_client(name,cpf,income,birth_date,children)VALUES('Marta Maria P
 INSERT INTO tbl_client(name,cpf,income,birth_date,children)VALUES('Augusta Nunes de Castro','40950349858','52222.00','2003-03-03',6);
 INSERT INTO tbl_client(name,cpf,income,birth_date,children)VALUES('Paula Ana de Assis','30945834533','66555.00','2004-04-22',4);
 INSERT INTO tbl_client(name,cpf,income,birth_date,children)VALUES('Roberto Amaral Peixoto','09348509345','65655.00','1949-07-31',6);
-INSERT INTO tbl_client(name,cpf,income,birth_date,children)VALUES('Tropeço Familia Addamns','10983409583','5333.00','1939-06-28',9);
+INSERT INTO tbl_client(name,cpf,income,birth_date,children)VALUES('Isaura Gomez Munhoz','10983409583','5333.00','1939-06-28',9);
 
 
 
